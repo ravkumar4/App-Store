@@ -1,0 +1,113 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 767px) {
+  .app-container {
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 75px;
+  }
+  .search-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #7b8794;
+    width: 70%;
+    padding: 5px;
+  }
+  .app-items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 7px;
+  }
+  .tab-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+  }
+  .search-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #7b8794;
+    width: 28%;
+    padding: 5px;
+  }
+  .app-store-heading {
+    color: #1e293b;
+    font-family: 'Bree Serif';
+    font-weight: 700;
+    font-size: 37px;
+  }
+  .search-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #7b8794;
+    width: 21%;
+    padding: 5px;
+  }
+  .tab-items-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .app-items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 7px;
+  }
+  .tab-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding-left: 0;
+  }
+}
+.app-store-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.search-input {
+  background-color: transparent;
+  width: 95%;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+.alert {
+  color: red;
+  font-family: 'Bree Serif';
+}

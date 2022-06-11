@@ -1,0 +1,51 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .normal-button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #7b8794;
+    font-family: 'Roboto';
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .active-button {
+    color: #2563eb;
+    font-family: 'Roboto';
+    font-weight: 700;
+    border-bottom: 2px solid #2563eb;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 24px;
+    margin: 7px;
+  }
+}
+.tab-items {
+  margin-right: 5px;
+  list-style-type: none;
+  margin-right: 2px;
+  margin-left: 0;
+}
+.normal-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 15px;
+  cursor: pointer;
+  margin: 5px;
+}
+.active-button {
+  color: #2563eb;
+  font-family: 'Roboto';
+  font-weight: 700;
+  border-bottom: 2px solid #2563eb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 15px;
+  margin: 7px;
+}
